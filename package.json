@@ -1,0 +1,25 @@
+{
+  "name": "solanakit",
+  "bin": {
+    "solanakit": "./dist/index.js"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "link-cli": "(npm unlink solanakit || true) && chmod +x ./dist/index.js && npm link",
+    "dev": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.1",
+    "@types/node": "^20.5.3",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "chalk-animation": "^2.0.3",
+    "commander": "^11.0.0"
+  }
+}
