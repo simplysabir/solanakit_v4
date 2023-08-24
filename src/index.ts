@@ -7,7 +7,7 @@ const program = new Command();
 //* Add actions onto that CLI
 
 program
-    .name('newcli')
+    .name('solanakit')
     .description('A comprehensive toolkit for Solana blockchain development from the command line.')
     .version('1.1.0')
     
